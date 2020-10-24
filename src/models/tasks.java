@@ -26,7 +26,7 @@ public class tasks {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "content", length = 255, nullable = false)
+    @Column(name = "content", length = 250, nullable = false)
     private String content;
 
     @Column(name = "created_at", nullable = false)
